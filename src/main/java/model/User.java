@@ -7,15 +7,26 @@ public class User {
     private String password;
     private boolean active;
 
+
+    public User() {
+    }
+
+    public User(User user) {
+        this.id = user.id;
+        this.username = user.username;
+        this.email = user.email;
+        this.password = user.password;
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime*result+(active?1231:1237);
-        result = prime*result+((email==null)?0:email.hashCode());
-        result = prime*result+(int)(id^(id>>>32));
-        result = prime*result+((password==null)?0:password.hashCode());
-        result = prime*result+((username==null)?0:username.hashCode());
+        result = prime * result + (active ? 1231 : 1237);
+        result = prime * result + ((email == null) ? 0 : email.hashCode());
+        result = prime * result + (int) (id ^ (id >>> 32));
+        result = prime * result + ((password == null) ? 0 : password.hashCode());
+        result = prime * result + ((username == null) ? 0 : username.hashCode());
         return result;
     }
 
@@ -70,14 +81,5 @@ public class User {
         this.active = active;
     }
 
-    public User(long id, String username, String email, String password, boolean active) {
-        this.id = id;
-        this.username = username;
-        this.email = email;
-        this.password = password;
-        this.active = active;
-    }
 
-    public User() {
-    }
 }
