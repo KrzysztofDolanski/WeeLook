@@ -49,7 +49,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="navbar-text">Weekop - developed by <a href="http://javastart.pl">JavaStart.pl</a></p>
+        <p class="navbar-text">WeeLook - developed by me</p>
     </div>
 </footer>
 

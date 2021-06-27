@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Weekop</title>
+    <title>WeeLook</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -14,7 +14,7 @@
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <a href="#" class="navbar-brand">Weekop</a>
+        <a href="#" class="navbar-brand">WeeLook</a>
 
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
             <span class="glyphicon glyphicon-list"></span>
@@ -46,7 +46,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="navbar-text">Weekop - developed by <a href="http://javastart.pl">JavaStart.pl</a></p>
+        <p class="navbar-text">WeeLook - developed by me</p>
     </div>
 </footer>
 
