@@ -15,14 +15,11 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/add")
 public class DiscoveryAddController extends HttpServlet {
 
-
-    private static final long serialVersionUID = 1L;
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         if(request.getUserPrincipal() != null) {
-            request.getRequestDispatcher("new.jsp").forward(request, response);
+            request.getRequestDispatcher("WEB-INF/new.jsp").forward(request, response);
         } else {
             response.sendError(403);
         }
@@ -45,4 +42,3 @@ public class DiscoveryAddController extends HttpServlet {
         }
     }
 }
-
